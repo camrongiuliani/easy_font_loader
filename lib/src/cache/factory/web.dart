@@ -10,7 +10,7 @@ Future<Uint8List?> downloadAndCache(String source) async {
 
   if (cached != null && cached.isNotEmpty) {
     if (kDebugMode) {
-      print('EasyFontLoader: Used cache for ${source}');
+      debugPrint('EasyFontLoader: Used cache for $source');
     }
     return Uint8List.fromList(cached);
   }
@@ -61,7 +61,7 @@ Future<List<int>?> _read(String key) async {
       return <int>[...r.split(',').map((e) => int.parse(e))];
     }
   } catch(e) {
-    print(e);
+    debugPrint(e.toString());
   }
   return null;
 }
@@ -77,7 +77,7 @@ Future<List<int>?> _asset(String asset) async {
     return List.from(result.buffer.asUint8List());
   } catch(e) {
     if (kDebugMode) {
-      print(e);
+      debugPrint(e.toString());
     }
   }
 
@@ -97,7 +97,7 @@ Future<List<int>?> _download(String url) async {
 
   } catch (e) {
     if (kDebugMode) {
-      print(e);
+      debugPrint(e.toString());
     }
   }
 

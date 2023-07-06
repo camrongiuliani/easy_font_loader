@@ -2,7 +2,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:easy_font_loader/src/cache/factory/factory.dart';
 import 'package:easy_font_loader/src/models/font_model.dart';
-import 'package:package_info_plus/package_info_plus.dart';
 
 class EasyFontLoader {
 
