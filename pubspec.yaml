@@ -1,6 +1,6 @@
 name: easy_font_loader
 description: Load TTF files form network or assets.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/camrongiuliani/easy_font_loader
 
 environment:
@@ -14,7 +14,7 @@ dependencies:
   flutter_cache_manager: ^3.3.0
   stash: ^4.4.1
   stash_sembast_web: ^4.4.1
-  http: ^0.13.5
+  http: ^1.1.0
   package_info_plus: ^4.0.2
 
 dev_dependencies:
