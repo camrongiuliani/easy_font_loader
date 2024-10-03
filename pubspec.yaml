@@ -14,8 +14,8 @@ dependencies:
   flutter_cache_manager: ^3.3.0
   stash: ^4.4.1
   stash_sembast_web: ^4.4.1
-  http: ^1.1.0
-  package_info_plus: ^4.0.2
+  http:
+  package_info_plus:
 
 dev_dependencies:
   flutter_test:
