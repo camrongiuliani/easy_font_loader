@@ -1,6 +1,6 @@
 name: easy_font_loader
 description: Load TTF files form network or assets.
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/camrongiuliani/easy_font_loader
 
 environment:
